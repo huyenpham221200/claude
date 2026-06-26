@@ -1,0 +1,7 @@
+# Claude Code config / cấu hình cục bộ
+.claude/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
