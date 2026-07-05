@@ -1,5 +1,14 @@
-# Claude Code config / cấu hình cục bộ
-.claude/
+# Claude Code config / cấu hình cục bộ (nhưng vẫn share skills cho cả team)
+.claude/*
+!.claude/skills/
+!.claude/skills/**
+
+# Secret OAuth credentials / token — không bao giờ push lên git
+.claude/skills/*/credentials/
+.claude/skills/**/token.json
+.claude/skills/**/oauth_client.json
+.claude/skills/**/.venv/
+.claude/skills/**/__pycache__/
 
 # OS files
 Thumbs.db
