@@ -2,7 +2,7 @@
 name: export-file-onpage
 description: Đẩy kết quả check onpage (cột "Ghi chú chi tiết" từ skill check-onpage-co-ban) lên 1 Google Sheet có sẵn, ghi đúng dòng tương ứng với từng checklist. Dùng khi user đưa link Google Sheet + tên cột đích và muốn "export file onpage", "đẩy kết quả lên sheet", "cập nhật sheet check onpage", hoặc gõ "/export-file-onpage".
 user-invokable: true
-argument-hint: <link Google Sheet> <cột đích> (vd: /export-file-onpage https://docs.google.com/spreadsheets/d/xxx/edit#gid=123 L)
+argument-hint: "<link Google Sheet> <cột đích> (vd: /export-file-onpage https://docs.google.com/spreadsheets/d/xxx/edit#gid=123 L)"
 license: MIT
 metadata:
   author: SEONGON

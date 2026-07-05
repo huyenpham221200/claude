@@ -2,7 +2,7 @@
 name: check-onpage-co-ban
 description: Kiểm tra onpage SEO cơ bản cho 1 URL — 3 hạng mục cốt lõi Domain (www/non-www, http/https), Khả năng index (robots.txt), Website metadata (OG tags, Viewport, Charset, Hreflang). Dùng khi user đưa 1 URL và muốn "check onpage cơ bản", "check onpage", "audit onpage", "rà soát onpage", hoặc gõ "/check-onpage-co-ban".
 user-invokable: true
-argument-hint: <url> (vd: /check-onpage-co-ban https://example.com)
+argument-hint: "<url> (vd: /check-onpage-co-ban https://example.com)"
 license: MIT
 metadata:
   author: SEONGON
